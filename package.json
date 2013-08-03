@@ -1,0 +1,24 @@
+{
+  "name": "bart",
+  "version": "0.0.1",
+  "description": "Bay Area Rapid Transit",
+  "keywords": [
+    "transit"
+  ],
+  "main": "index.js",
+  "homepage": "http://github.com/enjalot/bart",
+  "author": {
+    "name": "Ian Johnson",
+    "url": "http://enja.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/enjalot/bart.git"
+  },
+  "dependencies": {
+    "d3": "*",
+    "crossfilter":"*",
+    "simple-statistics": "*",
+    "xlsx":"*"
+  }
+}
