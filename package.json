@@ -19,6 +19,8 @@
     "d3": "*",
     "crossfilter":"*",
     "simple-statistics": "*",
-    "xlsx":"*"
+    "xlsx":"*",
+    "async": "*",
+    "coffee-script":"*"
   }
 }
