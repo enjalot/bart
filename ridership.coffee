@@ -5,9 +5,11 @@ path = require 'path'
 d3 = require 'd3'
 
 
-dir = path.join(__dirname, "data/ridership/ridership_2012/")
+dir = path.join(__dirname, "data/ridership/2012/")
 
-files = fs.readdirSync(dir)
+files = fs.readdirSync(dir).filter (f) -> 
+  f == "Ridership_August2012.xlsx"
+  #/xlsx/.test(f)
 console.log("files", files)
 
 
@@ -18,21 +20,23 @@ getColumnRow = (key) ->
   match = colRe.exec(key)
   return unless match
   letters = match[1]
+  row = +match[2]
   #we only want A -> AT
   if letters.length == 2
     return if letters > "AT"
-    col = 25 + letters.slice(1).charCodeAt(0) - 66
+    col = 28 + letters.slice(1).charCodeAt(0) - 66
   else
     return if letters < "A"
     col = letters.charCodeAt(0) - 64 #start at A = 1
-  row = match[2]
-  [col,+row]
+  [col,row]
 
 
-async.map files.slice(0,1), (file, fileCb) ->
+  #async.map files.slice(1,2), (file, fileCb) ->
+async.map files, (file, fileCb) ->
   console.log "file", file
   filePath = path.join dir, file
   parsed = xl.readFile(filePath)
+  json = {}
   parsed.SheetNames.slice(0,1).forEach (name) ->
     matrix = d3.range(45).map (d) ->
       return d3.range(42)
@@ -43,20 +47,21 @@ async.map files.slice(0,1), (file, fileCb) ->
     keys.forEach (key) ->
       match = colRe.exec(key)
       pair = getColumnRow(key)
+      if pair and pair[1] == 2
+        console.log "PAIR", pair, key, sheet[key].v
       return if not pair or not pair[0]
       #cols 0 -> 42 are the counts per station
       #rows from 2 -> 44 are the counts per station
       col = pair[0] - 2
       row = pair[1] - 2
       if col == -1 and row >= 0
-        console.log("PAIR", pair)
-        console.log key, sheet[key]
+        #console.log key, sheet[key]
         rows[row-1] = sheet[key].v
         return
       if row == 0
-        console.log("PAIR", pair)
-        console.log key, sheet[key]
+        #console.log key, sheet[key]
         cols[col] = sheet[key].v
+        console.log "COL", col, cols[col]
         return
       # zero index row
       row -= 1
@@ -65,12 +70,23 @@ async.map files.slice(0,1), (file, fileCb) ->
       #console.log 'el', col, row, sheet[key].v
       matrix[row][col] = sheet[key].v
 
-    console.log "matrix", matrix
-    console.log "cols", cols
-    console.log "rows", rows
-  fileCb()
+      #console.log "matrix", matrix
+    #matrix.forEach (row) ->
+      #console.log JSON.stringify(row)
+    console.log "cols", JSON.stringify(cols)
+    console.log "rows", JSON.stringify(rows)
+    json[name] = {
+      rows: rows
+      cols: cols
+      data: matrix
+    }
+
+  jsonName = file.replace(/xlsx/, 'json')
+  filePath = path.join dir, jsonName
+  fs.writeFileSync filePath, JSON.stringify(json, null, 2)
+  fileCb(null, json)
 , (err, results) ->
-  console.log "done"
+  console.log "done", results
 
 """
 sheet { A1: { v: 'Exit stations', t: 's', r: 'Exit stations' },
