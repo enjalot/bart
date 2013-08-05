@@ -38,6 +38,7 @@ Surrounding Data
 * CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx
 * GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp files converted to geojson and topojson)
 * US Atlas https://github.com/mbostock/us-atlas
+* US Cost of Living: http://cost-of-living.findthedata.org/l/60/San-Francisco-CA-Metro-Area
 * I'd be interested in looking at the property values surrounding BART stations with the Trulia API http://developer.trulia.com/
 
 Industry Classification via BLS:
