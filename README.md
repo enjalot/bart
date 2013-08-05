@@ -14,7 +14,8 @@ BART strike visualization
 # Data Links
 
 BART Data  
-* Employee Salaries https://docs.google.com/spreadsheet/ccc?key=0AiFtsy5d3JwNdE9tOWRtbmh5WTJSYnpaNktwUWJjYnc#gid=3
+* Employee Salaries https://docs.google.com/spreadsheet/ccc?key=0AiFtsy5d3JwNdE9tOWRtbmh5WTJSYnpaNktwUWJjYnc#gid=3  
+*   scraped from http://www.mercurynews.com/salaries/bay-area
 * Ridership http://www.bart.gov/about/reports/ridership.aspx
 * BART's 2013 financials are available in a PDF (page 5) http://www.bart.gov/docs/financials/FY2013_BART_Budget.pdf
 * Article comparing transit salaries in other cities with BART http://www.mercurynews.com/bart/ci_23742276/bart-workers-paychecks-already-outpace-their-peers
