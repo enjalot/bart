@@ -30,10 +30,21 @@ Highway Data
 Surrounding Data  
 * Bay Area census http://www.bayareacensus.ca.gov/historical/historical.htm (countypopulations.csv top10cities.csv)
 * U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in monthlyinflation.csv)
+* BLS U.S. Historical Wage Data, 2001 - 2013 (Current Dollar) ftp://ftp.bls.gov/pub/suppl/eci.echistrynaics.txt
 * CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx
 * GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp files converted to geojson and topojson)
 * US Atlas https://github.com/mbostock/us-atlas
 * I'd be interested in looking at the property values surrounding BART stations with the Trulia API http://developer.trulia.com/
+
+Industry Classification:
+Relevant industry codes from BLS
+The transit and ground passenger transportation subsector (NAICS 485) consists of these industry groups:
+* Urban Transit Systems: NAICS 4851
+* Interurban and Rural Bus Transportation: NAICS 4852
+* Taxi and Limousine Service: NAICS 4853
+* School and Employee Bus Transportation: NAICS 4854
+* Charter Bus Industry: NAICS 4855
+* Other Transit and Ground Passenger Transportation: NAICS 4859
 
 # Background Links
 * SF Transit History http://sftransithistory.com/
