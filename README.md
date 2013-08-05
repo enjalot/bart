@@ -1,6 +1,37 @@
 BART strike visualization
 =========================
 
+
+
+# Story Outline
+* Short history of BART / overview of area it covers
+
+### How big is BART?
+* What is it's total budget?
+	+ What does it's budget look like? How much for employees?
+	+ How many tax dollars does it cost? Cost to individual taxpayer?
+
+* How many people ride BART?
+	+ Which stations have most ridership?
+	
+* How much value does BART add to the area?
+  
+### What is causing the BART strike?
+* What is the history of BART/union negotiations?
+	+ History of voting results on transportation ballot measures <http://www.mtc.ca.gov/maps_and_data/GIS/maps/monthly/TranspoBallotResults-BAvsSTATE.pdf>
+* What are the points of contention?
+	+ Pay
+	+ Pensions
+	+ Medical benefits
+
+* How much do BART employees make? (Pay)
+	+ What employees make the most? What do they do? 
+	+ How do BART employees salaries compare to others in transit industry?
+	+ How do BART employee salaries compare to inflation?
+	+ Are employees making more/less than they did 10 years ago? 20?
+	+ How do BART employee salaries compare to salaries in the bay area? How do they compare to tech employees?
+
+
 # Sketches
 
 * Non-management Salaries with crossfilter and simple statistics http://tributary.io/inlet/6148096
