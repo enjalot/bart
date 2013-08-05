@@ -3,7 +3,9 @@ BART strike visualization
 
 # Sketches
 
-* Salaries with crossfilter and simple statistics http://tributary.io/inlet/6148096
+* Non-management Salaries with crossfilter and simple statistics http://tributary.io/inlet/6148096
+* Management salaries http://tributary.io/inlet/6153614
+* Inflation vs raises http://tributary.io/inlet/6153454
 * BART map with stations as JSON http://tributary.io/inlet/6148762
 * Animating on a BART line http://tributary.io/inlet/6149065
 * BART monthly ridership http://tributary.io/inlet/6149542
@@ -21,6 +23,7 @@ BART Data
 * http://en.wikipedia.org/wiki/History_of_the_Bay_Area_Rapid_Transit
 * Municiple tax shelters http://groups.yahoo.com/group/BATN/message/42479
 * Median income at BART stations http://dangrover.github.io/sf-transit-inequality https://github.com/dangrover/sf-transit-inequality
+* July 30 article on strike http://www.timesheraldonline.com/news/ci_23773852/unions-may-issue-72-hour-notice-strike-if
 
 Highway Data  
 * Traffic volume on Cali highways (search for bay bridge) http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/2012TrafficVolumes.pdf

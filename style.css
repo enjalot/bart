@@ -1,0 +1,60 @@
+body {
+  width:100%;
+  background: #e4e4e4;
+  font-family: "Helvetica Neue", Helvetica;
+}
+#header {
+  padding:0;
+  margin:0;
+  position:absolute;
+  top:0;
+  background: #060404;
+  width: 100%;
+  height: 80px;
+  display:block;
+  background: #040404;
+}
+#header .title {
+  font-family: Ubuntu;
+  font-size: 40px;
+  font-weight: 700;
+  line-height:80px;
+  color: white;
+  margin-left: 20px;
+}
+#header .subtitle {
+  position:relative;
+  top:0;
+  left:30px;
+  font-family: Ubuntu;
+  color: white;
+}
+#header a, #header a:hover, #header a:visited {
+  color: white;
+  text-decoration: none;
+}
+#page {
+  width: 100%;
+  height: 100%;
+}
+#display {
+  position:absolute;
+  top:80;
+  left:0;
+  width:100%;
+  height: 100%;
+  overflow:scroll;
+}
+
+.nonmgmt {
+}
+.mgmt {
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0px;
+  left: 920px;
+  background: rgba(244, 244,244, 0.8);
+  padding:20px;
+}
