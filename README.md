@@ -7,6 +7,7 @@ BART strike visualization
 * BART map with stations as JSON http://tributary.io/inlet/6148762
 * Animating on a BART line http://tributary.io/inlet/6149065
 * BART monthly ridership http://tributary.io/inlet/6149542
+* Income with inflation - previous and projected ( http://tributary.io/inlet/6152634 )
 
 # Data Links
 
