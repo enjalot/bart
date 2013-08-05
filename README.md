@@ -3,7 +3,9 @@ BART strike visualization
 
 # Sketches
 
-* Salaries with crossfilter and simple statistics http://tributary.io/inlet/6148096
+* Non-management Salaries with crossfilter and simple statistics http://tributary.io/inlet/6148096
+* Management salaries http://tributary.io/inlet/6153614
+* Inflation vs raises http://tributary.io/inlet/6153454
 * BART map with stations as JSON http://tributary.io/inlet/6148762
 * Animating on a BART line http://tributary.io/inlet/6149065
 * BART monthly ridership http://tributary.io/inlet/6149542
