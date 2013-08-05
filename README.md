@@ -36,8 +36,8 @@ Surrounding Data
 * US Atlas https://github.com/mbostock/us-atlas
 * I'd be interested in looking at the property values surrounding BART stations with the Trulia API http://developer.trulia.com/
 
-Industry Classification:
-Relevant industry codes from BLS
+Industry Classification via BLS:
+Transportation and Warehousing: NAICS 48-49
 The transit and ground passenger transportation subsector (NAICS 485) consists of these industry groups:
 * Urban Transit Systems: NAICS 4851
 * Interurban and Rural Bus Transportation: NAICS 4852
