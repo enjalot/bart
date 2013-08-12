@@ -4,11 +4,14 @@ fs = require 'fs'
 path = require 'path'
 d3 = require 'd3'
 
+year = 2013
+month = "June"
 
-dir = path.join(__dirname, "data/ridership/2012/")
+dir = path.join(__dirname, "data/ridership/#{year}/")
 
 files = fs.readdirSync(dir).filter (f) -> 
-  f == "Ridership_August2012.xlsx"
+  f == "Ridership_#{month}#{year}.xlsx"
+  #f == "Ridership_June2013.xlsx"
   #/xlsx/.test(f)
 console.log("files", files)
 
@@ -37,7 +40,7 @@ async.map files, (file, fileCb) ->
   filePath = path.join dir, file
   parsed = xl.readFile(filePath)
   json = {}
-  parsed.SheetNames.slice(0,1).forEach (name) ->
+  parsed.SheetNames.slice(0,3).forEach (name) ->
     matrix = d3.range(45).map (d) ->
       return d3.range(42)
     cols = d3.range(42).map -> 0
@@ -47,8 +50,8 @@ async.map files, (file, fileCb) ->
     keys.forEach (key) ->
       match = colRe.exec(key)
       pair = getColumnRow(key)
-      if pair and pair[1] == 2
-        console.log "PAIR", pair, key, sheet[key].v
+      #if pair and pair[1] == 2
+        #console.log "PAIR", pair, key, sheet[key].v
       return if not pair or not pair[0]
       #cols 0 -> 42 are the counts per station
       #rows from 2 -> 44 are the counts per station
@@ -61,7 +64,7 @@ async.map files, (file, fileCb) ->
       if row == 0
         #console.log key, sheet[key]
         cols[col] = sheet[key].v
-        console.log "COL", col, cols[col]
+        #console.log "COL", col, cols[col]
         return
       # zero index row
       row -= 1
@@ -81,12 +84,26 @@ async.map files, (file, fileCb) ->
       data: matrix
     }
 
-  jsonName = file.replace(/xlsx/, 'json')
-  filePath = path.join dir, jsonName
-  fs.writeFileSync filePath, JSON.stringify(json, null, 2)
+    jsonName = file.replace(/xlsx/, 'json').split('.')
+    jsonName[jsonName.length-2] += "-" + name.replace(/\s/,'-')
+    fileName = jsonName.join('.')
+    console.log "FILENAME", fileName
+    filePath = path.join dir, fileName
+    # make my own pretty print so the rows are on one line
+    str = "{\n"
+    str += '  "rows":' + JSON.stringify(rows)  + ",\n"
+    str += '  "cols":' + JSON.stringify(cols)  + ",\n"
+    str += '  "data":['
+    for row,i in matrix
+      str += JSON.stringify(row)
+      unless i == matrix.length-1
+        str += ",\n"
+    str += "]\n}"
+    fs.writeFileSync filePath, str
   fileCb(null, json)
 , (err, results) ->
-  console.log "done", results
+  #console.log "done", results
+  console.log "done"
 
 """
 sheet { A1: { v: 'Exit stations', t: 's', r: 'Exit stations' },
