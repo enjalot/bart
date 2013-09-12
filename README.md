@@ -92,3 +92,6 @@ The transit and ground passenger transportation subsector (NAICS 485) consists o
 * http://macwright.org/simple-statistics/
 * https://github.com/Niggler/js-xlsx
 * http://exposedata.com/tutorial/chord/
+ 
+# Other potential data sources
+* http://www.quandl.com/
