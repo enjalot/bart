@@ -2,20 +2,8 @@ BART strike visualization
 =========================
 
 
+# Unanswered Questions
 
-# Story Outline
-* Short history of BART / overview of area it covers
-
-### How big is BART?
-* What is it's total budget?
-	+ What does it's budget look like? How much for employees?
-	+ How many tax dollars does it cost? Cost to individual taxpayer?
-
-* How many people ride BART?
-	+ Which stations have most ridership?
-	
-* How much value does BART add to the area?
-  
 ### What is causing the BART strike?
 * What is the history of BART/union negotiations?
 	+ History of voting results on transportation ballot measures <http://www.mtc.ca.gov/maps_and_data/GIS/maps/monthly/TranspoBallotResults-BAvsSTATE.pdf>
@@ -24,12 +12,28 @@ BART strike visualization
 	+ Pensions
 	+ Medical benefits
 
-* How much do BART employees make? (Pay)
+* Are the demands reasonable?
 	+ What employees make the most? What do they do? 
 	+ How do BART employees salaries compare to others in transit industry?
 	+ How do BART employee salaries compare to inflation?
 	+ Are employees making more/less than they did 10 years ago? 20?
 	+ How do BART employee salaries compare to salaries in the bay area? How do they compare to tech employees?
+
+### What are the effects of the strike?
+* Budget Impact  
+ 	+ What is BART's total budget?
+	+ What does it's budget look like? How much for employees?
+	+ How many tax dollars does it cost? Cost to individual taxpayer?
+
+* Ridership impact  
+	+ How does a strike impact highways, MUNI and ferry transport?
+	+ How many people ride BART?
+	+ Which stations have most ridership?
+	
+* Socioeconomic impact  
+	+ Does BART service a population that otherwise wouldn't be serviced?
+	+ How much value does BART add to the area?
+
 
 
 # Sketches
@@ -49,13 +53,10 @@ BART Data
 *   scraped from http://www.mercurynews.com/salaries/bay-area
 * Ridership http://www.bart.gov/about/reports/ridership.aspx
 * BART's 2013 financials are available in a PDF (page 5) http://www.bart.gov/docs/financials/FY2013_BART_Budget.pdf
-* Article comparing transit salaries in other cities with BART http://www.mercurynews.com/bart/ci_23742276/bart-workers-paychecks-already-outpace-their-peers
-* Here's a good overview read from Mother Jones: http://www.motherjones.com/mojo/2013/07/bay-area-transit-strike-why-it-matters
 * https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit
 * http://en.wikipedia.org/wiki/History_of_the_Bay_Area_Rapid_Transit
 * Municiple tax shelters http://groups.yahoo.com/group/BATN/message/42479
 * Median income at BART stations http://dangrover.github.io/sf-transit-inequality https://github.com/dangrover/sf-transit-inequality
-* July 30 article on strike http://www.timesheraldonline.com/news/ci_23773852/unions-may-issue-72-hour-notice-strike-if
 
 Highway Data  
 * Traffic volume on Cali highways (search for bay bridge) http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/2012TrafficVolumes.pdf
@@ -81,6 +82,11 @@ The transit and ground passenger transportation subsector (NAICS 485) consists o
 * School and Employee Bus Transportation: NAICS 4854
 * Charter Bus Industry: NAICS 4855
 * Other Transit and Ground Passenger Transportation: NAICS 4859
+
+# News Articles
+* Good contextual overview: http://www.motherjones.com/mojo/2013/07/bay-area-transit-strike-why-it-matters
+* July 30 article on strike http://www.timesheraldonline.com/news/ci_23773852/unions-may-issue-72-hour-notice-strike-if
+* Article comparing transit salaries in other cities with BART http://www.mercurynews.com/bart/ci_23742276/bart-workers-paychecks-already-outpace-their-peers
 
 # Background Links
 * SF Transit History http://sftransithistory.com/
