@@ -11,6 +11,7 @@ BART strike visualization
 	+ Pay
 	+ Pensions
 	+ Medical benefits
+	+ Safety
 
 * Are the demands reasonable?
 	+ What employees make the most? What do they do? 
@@ -18,6 +19,8 @@ BART strike visualization
 	+ How do BART employee salaries compare to inflation?
 	+ Are employees making more/less than they did 10 years ago? 20?
 	+ How do BART employee salaries compare to salaries in the bay area? How do they compare to tech employees?
+	+ How much crime occurres on BART and at stations?
+	+ How many BART police are there?
 
 ### What are the effects of the strike?
 * Budget Impact  
@@ -49,9 +52,13 @@ BART strike visualization
 # Data Links
 
 BART Data  
-* Employee Salaries https://docs.google.com/spreadsheet/ccc?key=0AiFtsy5d3JwNdE9tOWRtbmh5WTJSYnpaNktwUWJjYnc#gid=3  
-*   scraped from http://www.mercurynews.com/salaries/bay-area
-* Ridership http://www.bart.gov/about/reports/ridership.aspx
+* Employee Salaries
+	+ Non-Management: https://github.com/enjalot/bart/blob/master/data/nonmgmt.csv
+	+ Management (no police): https://github.com/enjalot/bart/blob/master/data/mgmtnopolice.csv
+	+ source: John Osborn https://docs.google.com/spreadsheet/ccc?key=0AiFtsy5d3JwNdE9tOWRtbmh5WTJSYnpaNktwUWJjYnc#gid=3  
+	+ scraped from http://www.mercurynews.com/salaries/bay-area
+* Ridership https://github.com/enjalot/bart/tree/master/data/ridership
+	+ source: http://www.bart.gov/about/reports/ridership.aspx
 * BART's 2013 financials are available in a PDF (page 5) http://www.bart.gov/docs/financials/FY2013_BART_Budget.pdf
 * https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit
 * http://en.wikipedia.org/wiki/History_of_the_Bay_Area_Rapid_Transit
@@ -61,16 +68,23 @@ BART Data
 Highway Data  
 * Traffic volume on Cali highways (search for bay bridge) http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/2012TrafficVolumes.pdf
 * HOV lane data http://www.dot.ca.gov/dist4/highwayops/docs/2011%20Revised%20HOV%20Report.pdf
-* Traffic data http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/index.htm
+* Traffic data http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/index.htm  
+
+AC Transit  
+* Salaries https://github.com/enjalot/bart/blob/master/data/actransit-compensation_all.csv  
+
+MUNI Bus Data  
+* Ridership in SF (1 week) https://github.com/swissnexSF/Urban-Data-Challenge/tree/master/public-transportation/san-francisco/geo/topojson
+* GIS bus routes + stops in SF https://github.com/swissnexSF/Urban-Data-Challenge/tree/master/public-transportation/san-francisco/geo/topojson
 
 Surrounding Data  
+* CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx
+* GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp files converted to geojson and topojson)
+* US Atlas https://github.com/mbostock/us-atlas
 * Bay Area census http://www.bayareacensus.ca.gov/historical/historical.htm (countypopulations.csv top10cities.csv)
 * U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in monthlyinflation.csv)
 * BLS U.S. Historical Wage Data, 2001 - 2013 (Current Dollar) ftp://ftp.bls.gov/pub/suppl/eci.echistrynaics.txt
 * FRED (economic data) http://research.stlouisfed.org/fred2/
-* CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx
-* GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp files converted to geojson and topojson)
-* US Atlas https://github.com/mbostock/us-atlas
 * US Cost of Living: http://cost-of-living.findthedata.org/l/60/San-Francisco-CA-Metro-Area
 * I'd be interested in looking at the property values surrounding BART stations with the Trulia API http://developer.trulia.com/
 
