@@ -67,6 +67,7 @@ Surrounding Data
 * Bay Area census http://www.bayareacensus.ca.gov/historical/historical.htm (countypopulations.csv top10cities.csv)
 * U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in monthlyinflation.csv)
 * BLS U.S. Historical Wage Data, 2001 - 2013 (Current Dollar) ftp://ftp.bls.gov/pub/suppl/eci.echistrynaics.txt
+* FRED (economic data) http://research.stlouisfed.org/fred2/
 * CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx
 * GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp files converted to geojson and topojson)
 * US Atlas https://github.com/mbostock/us-atlas
