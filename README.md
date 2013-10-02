@@ -76,6 +76,7 @@ AC Transit
 MUNI Bus Data  
 * Ridership in SF (1 week) https://github.com/swissnexSF/Urban-Data-Challenge/tree/master/public-transportation/san-francisco/geo/topojson
 * GIS bus routes + stops in SF https://github.com/swissnexSF/Urban-Data-Challenge/tree/master/public-transportation/san-francisco/geo/topojson
+* bus routes sketch: http://tributary.io/inlet/5021432
 
 Surrounding Data  
 * CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx
