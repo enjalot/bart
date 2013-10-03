@@ -73,8 +73,9 @@ Highway Data
 AC Transit  
 * Salaries https://github.com/enjalot/bart/blob/master/data/actransit-compensation_all.csv  
 
-MUNI Bus Data  
-* Ridership in SF (1 week) https://github.com/swissnexSF/Urban-Data-Challenge/tree/master/public-transportation/san-francisco/geo/topojson
+MUNI Data
+* Salaries http://publicpay.ca.gov/Reports/PositionDetail.aspx?employeeid=3940543
+* Bus ridership in SF (1 week) https://github.com/swissnexSF/Urban-Data-Challenge/tree/master/public-transportation/san-francisco/geo/topojson
 * GIS bus routes + stops in SF https://github.com/swissnexSF/Urban-Data-Challenge/tree/master/public-transportation/san-francisco/geo/topojson
 * bus routes sketch: http://tributary.io/inlet/5021432
 
