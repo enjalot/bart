@@ -64,7 +64,7 @@ Some projects have been started with this data, we list them here
 	+ scraped from http://www.mercurynews.com/salaries/bay-area
 * Job families and union memberships: 
  	+ https://github.com/enjalot/bart/blob/master/data/job_families.csv
-	+ http://bart.gov/about/jobs/descriptions/index.aspx
+	+ source: http://bart.gov/about/jobs/descriptions/index.aspx
 * Ridership https://github.com/enjalot/bart/tree/master/data/ridership
 	+ source: http://www.bart.gov/about/reports/ridership.aspx
 * BART's 2013 financials are available in a PDF (page 5) http://www.bart.gov/docs/financials/FY2013_BART_Budget.pdf
