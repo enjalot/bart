@@ -1,0 +1,13 @@
+TYPE,STATE,AREANAME,Housing,Food,Child care,Transportation,Health care,Other Necessities,Taxes,Total,Total
+2P1C,CA,"Los Angeles-Long Beach, CA HUD Metro FMR Area","$1,421",$598,$720,$577,"$1,516",$517,$572,"$5,921","$71,052"
+2P1C,CA,"Oakland-Fremont, CA HUD Metro FMR Area","$1,361",$598,$720,$607,"$1,414",$501,$575,"$5,776","$69,309"
+2P1C,CA,"San Francisco, CA HUD Metro FMR Area","$1,795",$598,$720,$607,"$1,517",$613,$709,"$6,558","$78,700"
+2P1C,DC,"Washington-Arlington-Alexandria, DC-VA-MD HUD Metro FMR Area","$1,412",$598,"$1,318",$607,"$1,516",$515,$763,"$6,729","$80,744"
+2P1C,FL,"Miami-Miami Beach-Kendall, FL HUD Metro FMR Area","$1,122",$598,$550,$607,"$1,370",$440,$327,"$5,014","$60,168"
+2P1C,GA,"Atlanta-Sandy Springs-Marietta, GA HUD Metro FMR Area",$874,$598,$552,$577,"$1,340",$377,$320,"$4,639","$55,666"
+2P1C,IL,"Chicago-Naperville-Joliet, IL HUD Metro FMR Area",$785,$598,$791,$603,"$1,406",$354,$417,"$4,955","$59,454"
+2P1C,MA,"Boston-Cambridge-Quincy, MA-NH HUD Metro FMR Area","$1,444",$598,"$1,019",$607,"$1,532",$523,$661,"$6,385","$76,617"
+2P1C,MD,"Baltimore-Towson, MD HUD Metro FMR Area","$1,251",$598,$785,$607,"$1,457",$473,$528,"$5,699","$68,386"
+2P1C,NY,"New York, NY HUD Metro FMR Area","$1,474",$598,"$1,070",$577,"$1,577",$530,$622,"$6,448","$77,378"
+2P1C,OH,"Cleveland-Elyria-Mentor, OH MSA",$741,$598,$581,$607,"$1,399",$343,$217,"$4,486","$53,835"
+2P1C,PA,"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD MSA","$1,119",$598,$770,$607,"$1,609",$440,$523,"$5,666","$67,994"
