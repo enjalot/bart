@@ -53,17 +53,22 @@ Some projects have been started with this data, we list them here
 * Animating on a BART line http://tributary.io/inlet/6149065
 * BART monthly ridership http://tributary.io/inlet/6149542
 * Income with inflation - previous and projected ( http://tributary.io/inlet/6152634 )
+* Salaries grouped by job family (wip) - http://tributary.io/inlet/6879196
 
 # Data Links
 
 ### BART Data  
 * Employee Salaries
-	+ Non-Management: https://github.com/enjalot/bart/blob/master/data/nonmgmt.csv
-	+ Management (no police): https://github.com/enjalot/bart/blob/master/data/mgmtnopolice.csv
+	+ Non-Management: https://github.com/enjalot/bart/blob/master/data/bart-compensation_non-mgmt-categorized.csv
+	+ Management (no police): https://github.com/enjalot/bart/blob/master/data/bart-compensation_mgmt-categorized.csv
 	+ source: John Osborn https://docs.google.com/spreadsheet/ccc?key=0AiFtsy5d3JwNdE9tOWRtbmh5WTJSYnpaNktwUWJjYnc#gid=3  
 	+ scraped from http://www.mercurynews.com/salaries/bay-area
+* Job families and union memberships: 
+ 	+ https://github.com/enjalot/bart/blob/master/data/job_families.csv
+	+ source: http://bart.gov/about/jobs/descriptions/index.aspx
 * Ridership https://github.com/enjalot/bart/tree/master/data/ridership
 	+ source: http://www.bart.gov/about/reports/ridership.aspx
+* Union contracts (detail the benefits for each union): http://bart.gov/about/jobs/cba.aspx
 * BART's 2013 financials are available in a PDF (page 5) http://www.bart.gov/docs/financials/FY2013_BART_Budget.pdf
 * https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit
 * http://en.wikipedia.org/wiki/History_of_the_Bay_Area_Rapid_Transit
@@ -87,9 +92,11 @@ Some projects have been started with this data, we list them here
 ### Surrounding Data  
 CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx  
 GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp files converted to geojson and topojson)  
+Bay Area TOPOJSON: https://github.com/enjalot/bart/blob/master/data/bayareaTOPO.json
 US Atlas https://github.com/mbostock/us-atlas  
 Bay Area census http://www.bayareacensus.ca.gov/historical/historical.htm (countypopulations.csv top10cities.csv)  
 U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in monthlyinflation.csv)  
+Family Budget data: https://groups.google.com/forum/#!topic/bart-hackers/5rZCtiwQaVI
 BLS U.S. Historical Wage Data, 2001 - 2013 (Current Dollar) ftp://ftp.bls.gov/pub/suppl/eci.echistrynaics.txt  
 FRED (economic data) http://research.stlouisfed.org/fred2/  
 US Cost of Living: http://cost-of-living.findthedata.org/l/60/San-Francisco-CA-Metro-Area  
@@ -118,6 +125,16 @@ http://www.mtc.ca.gov/maps_and_data/datamart/census/ctpp2000/
 
 US CTPP using ACS 2006-2010 (5-Year Summary)  
 http://www.fhwa.dot.gov/planning/census_issues/ctpp/data_products/acsdataprod.cfm  
+
+Additional Data for San Francisco data.sfgov.org  
+
+BART Districts in San Francisco (Zipped Shapefile Format) https://data.sfgov.org/download/mnn6-ac5f/ZIP  
+
+Stop locations for all of public transit routes that serve San Francisco. Records indicate stop location and name, the associated  
+https://data.sfgov.org/download/s593-yv8k/SHAPEFILE  
+
+Incidents derived from SFPD Crime Incident Reporting system. Previous month. Updated daily  
+https://data.sfgov.org/Public-Safety/SFPD-Incidents-Previous-Three-Months/tmnf-yvry  
 
 Industry Classification via BLS:  
 Transportation and Warehousing: NAICS 48-49  
