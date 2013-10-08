@@ -36,6 +36,7 @@ and are composed of several sections:
 * http://en.wikipedia.org/wiki/History_of_the_Bay_Area_Rapid_Transit
 * Municiple tax shelters http://groups.yahoo.com/group/BATN/message/42479
 * Median income at BART stations http://dangrover.github.io/sf-transit-inequality https://github.com/dangrover/sf-transit-inequality
+* History of Raises: 2001 - 2005, 22% raise (source: http://www.sfgate.com/bayarea/article/BAY-AREA-BART-pay-ranks-high-for-transit-2624636.php)
 
 ### Highway Data  
 * Traffic volume on Cali highways (search for bay bridge) http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/2012TrafficVolumes.pdf
