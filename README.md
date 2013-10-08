@@ -62,6 +62,9 @@ Some projects have been started with this data, we list them here
 	+ Management (no police): https://github.com/enjalot/bart/blob/master/data/mgmtnopolice.csv
 	+ source: John Osborn https://docs.google.com/spreadsheet/ccc?key=0AiFtsy5d3JwNdE9tOWRtbmh5WTJSYnpaNktwUWJjYnc#gid=3  
 	+ scraped from http://www.mercurynews.com/salaries/bay-area
+* Job families and union memberships: 
+ 	+ https://github.com/enjalot/bart/blob/master/data/job_families.csv
+	+ http://bart.gov/about/jobs/descriptions/index.aspx
 * Ridership https://github.com/enjalot/bart/tree/master/data/ridership
 	+ source: http://www.bart.gov/about/reports/ridership.aspx
 * BART's 2013 financials are available in a PDF (page 5) http://www.bart.gov/docs/financials/FY2013_BART_Budget.pdf
@@ -87,6 +90,7 @@ Some projects have been started with this data, we list them here
 ### Surrounding Data  
 CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx  
 GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp files converted to geojson and topojson)  
+Bay Area TOPOJSON: https://github.com/enjalot/bart/blob/master/data/bayareaTOPO.json
 US Atlas https://github.com/mbostock/us-atlas  
 Bay Area census http://www.bayareacensus.ca.gov/historical/historical.htm (countypopulations.csv top10cities.csv)  
 U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in monthlyinflation.csv)  
