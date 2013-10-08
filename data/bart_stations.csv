@@ -1,0 +1,45 @@
+name,id,abbr,gtfs_latitude,gtfs_longitude,address,city,county,state,zipcode
+12th St. Oakland City Center,12,12TH,37.803664,-122.271604,1245 Broadway,Oakland,alameda,CA,94612
+16th St. Mission,16,16TH,37.765062,-122.419694,2000 Mission Street,San Francisco,sanfrancisco,CA,94110
+19th St. Oakland,19,19TH,37.80787,-122.269029,1900 Broadway,Oakland,alameda,CA,94612
+24th St. Mission,24,24TH,37.752254,-122.418466,2800 Mission Street,San Francisco,sanfrancisco,CA,94110
+Ashby,AS,ASHB,37.853024,-122.26978,3100 Adeline Street,Berkeley,alameda,CA,94703
+Balboa Park,BP,BALB,37.72198087,-122.4474142,401 Geneva Avenue,San Francisco,sanfrancisco,CA,94112
+Bay Fair,BF,BAYF,37.697185,-122.126871,15242 Hesperian Blvd.,San Leandro,alameda,CA,94578
+Castro Valley,BK,CAST,37.690754,-122.075567,3301 Norbridge Dr.,Castro Valley,alameda,CA,94546
+Civic Center/UN Plaza,CV,CIVC,37.779528,-122.413756,1150 Market Street,San Francisco,sanfrancisco,CA,94102
+Coliseum/Oakland Airport,CC,COLS,37.754006,-122.197273,7200 San Leandro St.,Oakland,alameda,CA,94621
+Colma,CL,COLM,37.684638,-122.466233,365 D Street,Colma,sanmateo,CA,94014
+Concord,CM,CONC,37.973737,-122.029095,1451 Oakland Avenue,Concord,contracosta,CA,94520
+Daly City,CN,DALY,37.70612055,-122.4690807,500 John Daly Blvd.,Daly City,sanmateo,CA,94014
+Downtown Berkeley,DC,DBRK,37.869867,-122.268045,2160 Shattuck Avenue,Berkeley,alameda,CA,94704
+Dublin/Pleasanton,ED,DUBL,37.701695,-121.900367,5801 Owens Dr.,Pleasanton,alameda,CA,94588
+El Cerrito del Norte,EN,DELN,37.925655,-122.317269,6400 Cutting Blvd.,El Cerrito,contracosta,CA,94530
+El Cerrito Plaza,EP,PLZA,37.9030588,-122.2992715,6699 Fairmount Avenue,El Cerrito,contracosta,CA,94530
+Embarcadero,EM,EMBR,37.792976,-122.396742,298 Market Street,San Francisco,sanfrancisco,CA,94111
+Fremont,FM,FRMT,37.557355,-121.9764,2000 BART Way,Fremont,alameda,CA,94536
+Fruitvale,FV,FTVL,37.774963,-122.224274,3401 East 12th Street,Oakland,alameda,CA,94601
+Glen Park,GP,GLEN,37.732921,-122.434092,2901 Diamond Street,San Francisco,sanfrancisco,CA,94131
+Hayward,HY,HAYW,37.670399,-122.087967,699 'B' Street,Hayward,alameda,CA,94541
+Lafayette,LF,LAFY,37.893394,-122.123801,3601 Deer Hill Road,Lafayette,contracosta,CA,94549
+Lake Merritt,LM,LAKE,37.797484,-122.265609,800 Madison Street,Oakland,alameda,CA,94607
+MacArthur,MA,MCAR,37.828415,-122.267227,555 40th Street,Oakland,alameda,CA,94609
+Millbrae,MB,MLBR,37.599787,-122.38666,200 North Rollins Road,Millbrae,sanmateo,CA,94030
+Montgomery St.,MT,MONT,37.789256,-122.401407,598 Market Street,San Francisco,sanfrancisco,CA,94104
+North Berkeley,NB,NBRK,37.87404,-122.283451,1750 Sacramento Street,Berkeley,alameda,CA,94702
+North Concord/Martinez,NC,NCON,38.003275,-122.024597,3700 Port Chicago Highway,Concord,contracosta,CA,94520
+Orinda,OR,ORIN,37.87836087,-122.1837911,11 Camino Pablo,Orinda,contracosta,CA,94563
+Pittsburg/Bay Point,WP,PITT,38.018914,-121.945154,1700 West Leland Road,Pittsburg,contracosta,CA,94565
+Pleasant Hill/Contra Costa Centre,PH,PHIL,37.928403,-122.056013,1365 Treat Blvd.,Walnut Creek,contracosta,CA,94597
+Powell St.,PL,POWL,37.784991,-122.406857,899 Market Street,San Francisco,sanfrancisco,CA,94102
+Richmond,RM,RICH,37.936887,-122.353165,1700 Nevin Avenue,Richmond,contracosta,CA,94801
+Rockridge,RR,ROCK,37.844601,-122.251793,5660 College Avenue,Oakland,alameda,CA,94618
+San Bruno,SB,SBRN,37.637753,-122.416038,1151 Huntington Avenue,San Bruno,sanmateo,CA,94066
+San Francisco Int'l Airport,SO,SFIA,37.616035,-122.392612,"International Terminal, Level 3",San Francisco Int'l Airport,sanmateo,CA,94128
+San Leandro,SL,SANL,37.72261921,-122.1613112,1401 San Leandro Blvd.,San Leandro,alameda,CA,94577
+South Hayward,SH,SHAY,37.63479954,-122.0575506,28601 Dixon Street,Hayward,alameda,CA,94544
+South San Francisco,SS,SSAN,37.664174,-122.444116,1333 Mission Road,South San Francisco,sanmateo,CA,94080
+Union City,UC,UCTY,37.591208,-122.017867,10 Union Square,Union City,alameda,CA,94587
+Walnut Creek,WC,WCRK,37.905628,-122.067423,200 Ygnacio Valley Road,Walnut Creek,contracosta,CA,94596
+West Dublin/Pleasanton,WD,WDUB,37.699759,-121.928099,6501 Golden Gate Drive,Dublin,alameda,CA,94568
+West Oakland,OW,WOAK,37.80467476,-122.2945822,1451 7th Street,Oakland,alameda,CA,94607
