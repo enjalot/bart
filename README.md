@@ -53,6 +53,7 @@ Some projects have been started with this data, we list them here
 * Animating on a BART line http://tributary.io/inlet/6149065
 * BART monthly ridership http://tributary.io/inlet/6149542
 * Income with inflation - previous and projected ( http://tributary.io/inlet/6152634 )
+* Salaries grouped by job family (wip) - http://tributary.io/inlet/6879196
 
 # Data Links
 
