@@ -125,6 +125,16 @@ http://www.mtc.ca.gov/maps_and_data/datamart/census/ctpp2000/
 US CTPP using ACS 2006-2010 (5-Year Summary)  
 http://www.fhwa.dot.gov/planning/census_issues/ctpp/data_products/acsdataprod.cfm  
 
+Additional Data for San Francisco data.sfgov.org  
+
+BART Districts in San Francisco (Zipped Shapefile Format) https://data.sfgov.org/download/mnn6-ac5f/ZIP  
+
+Stop locations for all of public transit routes that serve San Francisco. Records indicate stop location and name, the associated  
+https://data.sfgov.org/download/s593-yv8k/SHAPEFILE  
+
+Incidents derived from SFPD Crime Incident Reporting system. Previous month. Updated daily  
+https://data.sfgov.org/Public-Safety/SFPD-Incidents-Previous-Three-Months/tmnf-yvry  
+
 Industry Classification via BLS:  
 Transportation and Warehousing: NAICS 48-49  
 The transit and ground passenger transportation subsector (NAICS 485) consists of these industry groups:  
