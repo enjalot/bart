@@ -1,6 +1,10 @@
 BART strike visualization
 =========================
 
+# Projects
+Some projects have been started with this data, we list them here  
+
+* BART is Bending Us Over Backwards: http://slantedwindows.com/bart-is-bending-us-over-backwards/  
 
 # Unanswered Questions
 
@@ -36,6 +40,7 @@ BART strike visualization
 * Socioeconomic impact  
 	+ Does BART service a population that otherwise wouldn't be serviced?
 	+ How much value does BART add to the area?
+
 
 
 
