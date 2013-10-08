@@ -51,7 +51,7 @@ BART strike visualization
 
 # Data Links
 
-BART Data  
+### BART Data  
 * Employee Salaries
 	+ Non-Management: https://github.com/enjalot/bart/blob/master/data/nonmgmt.csv
 	+ Management (no police): https://github.com/enjalot/bart/blob/master/data/mgmtnopolice.csv
@@ -65,34 +65,58 @@ BART Data
 * Municiple tax shelters http://groups.yahoo.com/group/BATN/message/42479
 * Median income at BART stations http://dangrover.github.io/sf-transit-inequality https://github.com/dangrover/sf-transit-inequality
 
-Highway Data  
+### Highway Data  
 * Traffic volume on Cali highways (search for bay bridge) http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/2012TrafficVolumes.pdf
 * HOV lane data http://www.dot.ca.gov/dist4/highwayops/docs/2011%20Revised%20HOV%20Report.pdf
 * Traffic data http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/index.htm  
 
-AC Transit  
+### AC Transit  
 * Salaries https://github.com/enjalot/bart/blob/master/data/actransit-compensation_all.csv  
 
-MUNI Data
+### MUNI Data
 * Salaries http://publicpay.ca.gov/Reports/PositionDetail.aspx?employeeid=3940543
 * Bus ridership in SF (1 week) https://github.com/swissnexSF/Urban-Data-Challenge/tree/master/public-transportation/san-francisco/geo/topojson
 * GIS bus routes + stops in SF https://github.com/swissnexSF/Urban-Data-Challenge/tree/master/public-transportation/san-francisco/geo/topojson
 * bus routes sketch: http://tributary.io/inlet/5021432
 
-Surrounding Data  
-* CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx
-* GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp files converted to geojson and topojson)
-* US Atlas https://github.com/mbostock/us-atlas
-* Bay Area census http://www.bayareacensus.ca.gov/historical/historical.htm (countypopulations.csv top10cities.csv)
-* U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in monthlyinflation.csv)
-* BLS U.S. Historical Wage Data, 2001 - 2013 (Current Dollar) ftp://ftp.bls.gov/pub/suppl/eci.echistrynaics.txt
-* FRED (economic data) http://research.stlouisfed.org/fred2/
-* US Cost of Living: http://cost-of-living.findthedata.org/l/60/San-Francisco-CA-Metro-Area
-* I'd be interested in looking at the property values surrounding BART stations with the Trulia API http://developer.trulia.com/
+### Surrounding Data  
+CA MTC http://dataportal.mtc.ca.gov/spatial-library.aspx  
+GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp files converted to geojson and topojson)  
+US Atlas https://github.com/mbostock/us-atlas  
+Bay Area census http://www.bayareacensus.ca.gov/historical/historical.htm (countypopulations.csv top10cities.csv)  
+U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in monthlyinflation.csv)  
+BLS U.S. Historical Wage Data, 2001 - 2013 (Current Dollar) ftp://ftp.bls.gov/pub/suppl/eci.echistrynaics.txt  
+FRED (economic data) http://research.stlouisfed.org/fred2/  
+US Cost of Living: http://cost-of-living.findthedata.org/l/60/San-Francisco-CA-Metro-Area  
+I'd be interested in looking at the property values surrounding BART stations with the Trulia API http://developer.trulia.com/  
 
-Industry Classification via BLS:
-Transportation and Warehousing: NAICS 48-49
-The transit and ground passenger transportation subsector (NAICS 485) consists of these industry groups:
+California State Data Center
+http://www.dof.ca.gov/research/demographic/state_census_data_center/census_2010/view.php
+
+Longitudinal Employer-Household Dynamics (LEHD) public-use data products  
+http://lehd.did.census.gov/
+
+Beyond the Shutdown: U.S. Government Data on ArcGIS Online  
+http://blogs.esri.com/esri/arcgis/2013/10/04/beyond-shutdown-us-government-data-on-arcgis-online/  
+
+CensusReporter
+http://censusreporter.tumblr.com/
+
+Detailed State Files for California (2013)  
+block groups: http://openstreetmap.us/~migurski/TIGER-Areas/tl_2013_06_bg.zip  
+places: http://openstreetmap.us/~migurski/TIGER-Areas/tl_2013_06_place.zip  
+blocks: http://openstreetmap.us/~migurski/TIGER-Areas/tl_2013_06_tabblock.zip  
+tracts: http://openstreetmap.us/~migurski/TIGER-Areas/tl_2013_06_tract.zip  
+
+Census Transportation Planning Package (CTPP2000)  
+http://www.mtc.ca.gov/maps_and_data/datamart/census/ctpp2000/  
+
+US CTPP using ACS 2006-2010 (5-Year Summary)  
+http://www.fhwa.dot.gov/planning/census_issues/ctpp/data_products/acsdataprod.cfm  
+
+Industry Classification via BLS:  
+Transportation and Warehousing: NAICS 48-49  
+The transit and ground passenger transportation subsector (NAICS 485) consists of these industry groups:  
 * Urban Transit Systems: NAICS 4851
 * Interurban and Rural Bus Transportation: NAICS 4852
 * Taxi and Limousine Service: NAICS 4853
