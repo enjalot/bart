@@ -67,6 +67,7 @@ Some projects have been started with this data, we list them here
 	+ source: http://bart.gov/about/jobs/descriptions/index.aspx
 * Ridership https://github.com/enjalot/bart/tree/master/data/ridership
 	+ source: http://www.bart.gov/about/reports/ridership.aspx
+* Union contracts (detail the benefits for each union): http://bart.gov/about/jobs/cba.aspx
 * BART's 2013 financials are available in a PDF (page 5) http://www.bart.gov/docs/financials/FY2013_BART_Budget.pdf
 * https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit
 * http://en.wikipedia.org/wiki/History_of_the_Bay_Area_Rapid_Transit
