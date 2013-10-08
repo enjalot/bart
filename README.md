@@ -58,8 +58,8 @@ Some projects have been started with this data, we list them here
 
 ### BART Data  
 * Employee Salaries
-	+ Non-Management: https://github.com/enjalot/bart/blob/master/data/nonmgmt.csv
-	+ Management (no police): https://github.com/enjalot/bart/blob/master/data/mgmtnopolice.csv
+	+ Non-Management: https://github.com/enjalot/bart/blob/master/data/bart-compensation_non-mgmt-categorized.csv
+	+ Management (no police): https://github.com/enjalot/bart/blob/master/data/bart-compensation_mgmt-categorized.csv
 	+ source: John Osborn https://docs.google.com/spreadsheet/ccc?key=0AiFtsy5d3JwNdE9tOWRtbmh5WTJSYnpaNktwUWJjYnc#gid=3  
 	+ scraped from http://www.mercurynews.com/salaries/bay-area
 * Job families and union memberships: 
