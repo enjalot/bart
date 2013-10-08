@@ -1,0 +1,36 @@
+Notes on data cleaning BART compensation files:
+
+- Started with mgmtnopolice.csv and nonmgmt.csv
+- Got rid of extraneous stats on right hand side of file
+- Added Source column to track origin of each row: MNP = mgmtnopolice.csv and NM = nonmgmt.csv
+- Concatenated both files in to bart-comp-all.csv
+
+- Simple global search/replace on Titles:
+    'Mgr.' 	=> 'Manager'
+    'Mgr'  	=> 'Manager'
+    'Sr'	=> 'Senior'
+    'Grp'	=> 'Group'
+    'Asst'	=> 'Assistant'
+    'ACTO'	=> 'Assistant Chief Transportation Officer'
+    'Engr'	=> 'Engineering'
+    'Dev'	=> 'Development'
+    'Sys'	=> 'Systems
+    'Supv'	=> 'Supervisor'
+    'Super'	=> 'Supervisor'
+    'Auto'   => 'Automotive'
+    'Dept'	=> 'Department'
+    'Exec'	=> 'Executive'
+    'Maint'	=> 'Maintenance'
+    'Engineer'	=> 'Engineering'
+    'Mech'	=> 'Mechanical'
+    'Rep'	=> 'Representative'
+    'Sect'	=> 'Section'
+    # Skipped:   'Admin' could be 'Administrative' or 'Administrator' or 'Administration'
+    'Equip'	=> 'Equipment'
+    'Tec'	=> 'Technician'
+    'Tech'	=> 'Technician'
+
+- Did a full outer join of all titles with job_families.csv, manually filled in any missing entries in result.  Result of this manual scrubbing in job_families_all_scrubbed.csv
+
+- Results in bart-comp-all.csv
+
