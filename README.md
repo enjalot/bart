@@ -94,6 +94,7 @@ Bay Area TOPOJSON: https://github.com/enjalot/bart/blob/master/data/bayareaTOPO.
 US Atlas https://github.com/mbostock/us-atlas  
 Bay Area census http://www.bayareacensus.ca.gov/historical/historical.htm (countypopulations.csv top10cities.csv)  
 U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in monthlyinflation.csv)  
+Family Budget data: https://groups.google.com/forum/#!topic/bart-hackers/5rZCtiwQaVI
 BLS U.S. Historical Wage Data, 2001 - 2013 (Current Dollar) ftp://ftp.bls.gov/pub/suppl/eci.echistrynaics.txt  
 FRED (economic data) http://research.stlouisfed.org/fred2/  
 US Cost of Living: http://cost-of-living.findthedata.org/l/60/San-Francisco-CA-Metro-Area  
