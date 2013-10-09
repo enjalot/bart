@@ -217,7 +217,8 @@ body {
     font-size: 14px;
     color: #444;
     background-color: #F4F1ED;
-    background-image: url('../img/hexellence.png');
+    background-image: url('/site/img/hexellence.png');
+    background-attachment:fixed;
 }
 
 h1, h2, h3 {
