@@ -19,6 +19,7 @@ Some projects have been started with this data, we list them here
 
 * Are the demands reasonable?
 	+ What employees make the most? What do they do? 
+	+ How does Overtime pay factor in?
 	+ How do BART employees salaries compare to others in transit industry?
 	+ How do BART employee salaries compare to inflation?
 	+ Are employees making more/less than they did 10 years ago? 20?
