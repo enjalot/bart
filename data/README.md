@@ -11,18 +11,19 @@ and are composed of several sections:
 **Base**: base salary for calendar year  
 **OT**: over time pay  
 **Other**: Lump sump payouts for vacation, sick leave and comp time, bonuses and other taxable cash payments  
-**MDV**: Employer contributions to medical, dental and vision plans
+**MDV**: Employer contributions to medical, dental and vision plans  
 **ER**: Employer contribution to pension  
 **EE**: Employee contribution to pension paid by the employer  
 **DC**: Employer contribution to deferred compensation (eg. 401(k) or 403(b) plans)  
 **Misc**: Other non-cash costs of employment  
 **TCOE**: Total cost of ownership  
-
+**Source**: MNP is "Management, No Police" and NM is "non-management"  
+**Job Family**: Higher level categorization of job titles (see [notes](https://github.com/enjalot/bart/blob/master/data/comp-data-cleaning-notes.txt))  
+**Union**: Union representation for each employee  
 
 ### BART Data  
 * Employee Salaries
-	+ Non-Management: https://github.com/enjalot/bart/blob/master/data/bart-compensation_non-mgmt-categorized.csv
-	+ Management (no police): https://github.com/enjalot/bart/blob/master/data/bart-compensation_mgmt-categorized.csv
+	+ https://github.com/enjalot/bart/blob/master/data/bart-comp-all.csv
 	+ source: John Osborn https://docs.google.com/spreadsheet/ccc?key=0AiFtsy5d3JwNdE9tOWRtbmh5WTJSYnpaNktwUWJjYnc#gid=3  
 	+ scraped from http://www.mercurynews.com/salaries/bay-area
 * Job families and union memberships: 
