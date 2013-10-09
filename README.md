@@ -54,6 +54,10 @@ Some projects have been started with this data, we list them here
 * BART monthly ridership http://tributary.io/inlet/6149542
 * Income with inflation - previous and projected ( http://tributary.io/inlet/6152634 )
 * Salaries grouped by job family - http://tributary.io/inlet/6892157
+* location of PEMS traffic trackers - http://tributary.io/inlet/6894869
+* traffic on hwy 80 SF exit - http://tributary.io/inlet/6895540
+* traffic on hwy 80 treasure island - http://tributary.io/inlet/6895166
+* traffic on hwy 92 bridge in july - http://tributary.io/inlet/6895614
 
 # Data Links
 
