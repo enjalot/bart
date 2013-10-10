@@ -193,12 +193,12 @@ textarea {
    }	
 
    a:link, a:visited {
-   	   color: #db465c;
+   	   color: #2A94DB;
    	   text-decoration: none;
    }
 
    a:hover, a:active {
-       color: #000;
+       color: #094C72;
        text-decoration: underline;
    }
 
@@ -209,6 +209,22 @@ textarea {
    -webkit-transition: color .5s ease-out;
    transition: color .5s ease-out;
    }
+   
+   a > img {
+      -o-transition: opacity .5s ease-out;
+      -ms-transition: opacity .5s ease-out;
+      -moz-transition: opacity .5s ease-out;
+      -webkit-transition: opacity .5s ease-out;
+      transition: opacity .5s ease-out;
+      }
+   
+   a > img {
+       opacity: 0.65;
+   }
+   
+   a:hover > img, a:active > img {
+        opacity: 1.0;
+    }
    
 
 body {
@@ -244,15 +260,6 @@ img {
     max-width: 100%;
 }
 
-a:link, a:visited {
-    color: #555;
-    text-decoration: none;
-}
-
-a:active, a:hover  {
-    text-decoration: underline;
-    color: #333;
-}
 
 #sidebar {
     width: 210px;
