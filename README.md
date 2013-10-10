@@ -6,6 +6,26 @@ Some projects have been started with this data, we list them here
 
 * BART is Bending Us Over Backwards: http://slantedwindows.com/bart-is-bending-us-over-backwards/  
 
+# Sketches
+
+* Non-management Salaries with crossfilter and simple statistics http://tributary.io/inlet/6148096
+* Management salaries http://tributary.io/inlet/6153614
+* Inflation vs raises http://tributary.io/inlet/6153454
+* BART map with stations as JSON http://tributary.io/inlet/6148762
+* Animating on a BART line http://tributary.io/inlet/6149065
+* BART monthly ridership http://tributary.io/inlet/6149542
+* Income with inflation - previous and projected ( http://tributary.io/inlet/6152634 )
+* Salaries grouped by job family - http://tributary.io/inlet/6892157
+* PEMS traffic - http://tributary.io/inlet/6914083
+* location of PEMS traffic trackers - http://tributary.io/inlet/6894869
+* traffic on hwy 80 SF exit - http://tributary.io/inlet/6895540
+* traffic on hwy 80 treasure island - http://tributary.io/inlet/6895166
+* traffic on hwy 92 bridge in july - http://tributary.io/inlet/6895614
+
+# Data Links
+
+All of the data and sources can be found here: https://github.com/enjalot/bart/tree/master/data
+
 # Unanswered Questions
 
 ### What is causing the BART strike?
@@ -42,27 +62,6 @@ Some projects have been started with this data, we list them here
 	+ Does BART service a population that otherwise wouldn't be serviced?
 	+ How much value does BART add to the area?
 
-
-
-
-# Sketches
-
-* Non-management Salaries with crossfilter and simple statistics http://tributary.io/inlet/6148096
-* Management salaries http://tributary.io/inlet/6153614
-* Inflation vs raises http://tributary.io/inlet/6153454
-* BART map with stations as JSON http://tributary.io/inlet/6148762
-* Animating on a BART line http://tributary.io/inlet/6149065
-* BART monthly ridership http://tributary.io/inlet/6149542
-* Income with inflation - previous and projected ( http://tributary.io/inlet/6152634 )
-* Salaries grouped by job family - http://tributary.io/inlet/6892157
-* location of PEMS traffic trackers - http://tributary.io/inlet/6894869
-* traffic on hwy 80 SF exit - http://tributary.io/inlet/6895540
-* traffic on hwy 80 treasure island - http://tributary.io/inlet/6895166
-* traffic on hwy 92 bridge in july - http://tributary.io/inlet/6895614
-
-# Data Links
-
-All of the data and sources can be found here: https://github.com/enjalot/bart/tree/master/data
 
 # News Articles
 * Good contextual overview: http://www.motherjones.com/mojo/2013/07/bay-area-transit-strike-why-it-matters
