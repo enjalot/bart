@@ -121,6 +121,9 @@ textarea {
   padding-left: 30px;
   font-size: 90%;
 }
+.twitter-share-button {
+  padding-left: 20px;
+}
 
 /* Show and affix the side nav when space allows it */
 @media screen and (min-width: 480px) {
