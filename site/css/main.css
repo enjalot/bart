@@ -289,6 +289,9 @@ img {
 
 
 
+iframe {
+  overflow: hidden;
+}
 #content p {
     margin-bottom: 26px;
 }
