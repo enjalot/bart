@@ -32,12 +32,17 @@ and are composed of several sections:
 * Ridership https://github.com/enjalot/bart/tree/master/data/ridership
 	+ source: http://www.bart.gov/about/reports/ridership.aspx
 * Union contracts (detail the benefits for each union): http://bart.gov/about/jobs/cba.aspx
-* BART's 2013 financials are available in a PDF (page 5) http://www.bart.gov/docs/financials/FY2013_BART_Budget.pdf
+* Historical [financials](https://github.com/enjalot/bart/blob/master/data/financials-simple.csv)
+* BART's 2013 financials available from a [PDF on page 5](http://www.bart.gov/docs/financials/FY2013_BART_Budget.pdf)
 * https://en.wikipedia.org/wiki/Bay_Area_Rapid_Transit
 * http://en.wikipedia.org/wiki/History_of_the_Bay_Area_Rapid_Transit
-* Municiple tax shelters http://groups.yahoo.com/group/BATN/message/42479
-* Median income at BART stations http://dangrover.github.io/sf-transit-inequality https://github.com/dangrover/sf-transit-inequality
 * History of Raises: 2001 - 2005, 22% raise (source: http://www.sfgate.com/bayarea/article/BAY-AREA-BART-pay-ranks-high-for-transit-2624636.php)
+* Fare increases - sourced by [Hyon](http://slantedwindows.com/bart-is-bending-us-over-backwards/)
+	+ [2004](http://www.berkeleydailyplanet.com/issue/2003-05-23/article/16679?headline=BART-Boosts-Fares-by-10-&status=301)  
+	+ [2006](http://www.sfgate.com/default/article/BAY-AREA-BART-Caltrain-greet-2006-by-2585014.php)  
+	+ [2009](http://bart.gov/news/articles/2009/news20090528.aspx)  
+	+ [2012](http://www.bart.gov/news/articles/2012/news20120518.aspx)  
+	+ [2014](http://www.sfgate.com/bayarea/article/BART-set-to-increase-fares-parking-costs-4318458.php)  
 
 ### Highway Data  
 * Traffic volume on Cali highways (search for bay bridge) http://www.dot.ca.gov/hq/traffops/saferesr/trafdata/2012TrafficVolumes.pdf
@@ -59,7 +64,7 @@ GIS data (maps, census) http://www.mtc.ca.gov/maps_and_data/GIS/data.htm (shp fi
 Bay Area TOPOJSON: https://github.com/enjalot/bart/blob/master/data/bayareaTOPO.json
 US Atlas https://github.com/mbostock/us-atlas  
 Bay Area census http://www.bayareacensus.ca.gov/historical/historical.htm (countypopulations.csv top10cities.csv)  
-U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in monthlyinflation.csv)  
+U.S. monthly inflation http://www.usinflationcalculator.com/inflation/historical-inflation-rates/ (stored in [monthlyinflation.csv](https://github.com/enjalot/bart/blob/master/data/monthlyinflation.csv))  
 Family Budget data: https://groups.google.com/forum/#!topic/bart-hackers/5rZCtiwQaVI
 BLS U.S. Historical Wage Data, 2001 - 2013 (Current Dollar) ftp://ftp.bls.gov/pub/suppl/eci.echistrynaics.txt  
 FRED (economic data) http://research.stlouisfed.org/fred2/  
@@ -68,6 +73,9 @@ Cost of Living:
 * source: http://www.epi.org/files/2013/2013-family-budget-calculator.xlsx
 * source: https://en.wikipedia.org/wiki/List_of_metro_systems  
 * more SF: http://cost-of-living.findthedata.org/l/60/San-Francisco-CA-Metro-Area  
+
+Municiple tax shelters http://groups.yahoo.com/group/BATN/message/42479  
+Median income at BART stations http://dangrover.github.io/sf-transit-inequality https://github.com/dangrover/sf-transit-inequality  
 
 I'd be interested in looking at the property values surrounding BART stations with the Trulia API http://developer.trulia.com/  
 
