@@ -2,9 +2,7 @@ BART strike visualization
 =========================
 
 # Projects
-Some projects have been started with this data, we list them here  
-
-* BART is Bending Us Over Backwards: http://slantedwindows.com/bart-is-bending-us-over-backwards/  
+See the projects put together with this data [http://enjalot.github.io/bart/](http://enjalot.github.io/bart/)
 
 # Sketches
 
