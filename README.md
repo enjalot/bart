@@ -99,7 +99,7 @@ All of the data and sources can be found here: https://github.com/enjalot/bart/t
 
 * BAY AREA / BART plan means shorter trains, fewer workers / But fares won't rise under $475 million operating budget http://www.sfgate.com/default/article/BAY-AREA-BART-plan-means-shorter-trains-fewer-2755383.php
 
-*OAKLAND / BART proposes operating budget http://www.sfgate.com/default/article/OAKLAND-BART-proposes-operating-budget-2768898.php
+* OAKLAND / BART proposes operating budget http://www.sfgate.com/default/article/OAKLAND-BART-proposes-operating-budget-2768898.php
 
 2003
 
