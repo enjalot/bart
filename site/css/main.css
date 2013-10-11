@@ -193,12 +193,12 @@ textarea {
    }	
 
    a:link, a:visited {
-   	   color: #db465c;
+   	   color: #2A94DB;
    	   text-decoration: none;
    }
 
    a:hover, a:active {
-       color: #000;
+       color: #094C72;
        text-decoration: underline;
    }
 
@@ -210,6 +210,22 @@ textarea {
    transition: color .5s ease-out;
    }
    
+   a > img {
+      -o-transition: opacity .5s ease-out;
+      -ms-transition: opacity .5s ease-out;
+      -moz-transition: opacity .5s ease-out;
+      -webkit-transition: opacity .5s ease-out;
+      transition: opacity .5s ease-out;
+      }
+   
+   a > img {
+       opacity: 0.65;
+   }
+   
+   a:hover > img, a:active > img {
+        opacity: 1.0;
+    }
+   
 
 body {
     font-family: 'Crete Round', serif;
@@ -217,7 +233,8 @@ body {
     font-size: 14px;
     color: #444;
     background-color: #F4F1ED;
-    background-image: url('../img/hexellence.png');
+    /*background-image: url('/bart/site/img/hexellence.png');*/
+    background-attachment:fixed;
 }
 
 h1, h2, h3 {
@@ -243,15 +260,6 @@ img {
     max-width: 100%;
 }
 
-a:link, a:visited {
-    color: #555;
-    text-decoration: none;
-}
-
-a:active, a:hover  {
-    text-decoration: underline;
-    color: #333;
-}
 
 #sidebar {
     width: 210px;
@@ -281,13 +289,16 @@ a:active, a:hover  {
 
 
 
+iframe {
+  overflow: hidden;
+}
 #content p {
     margin-bottom: 26px;
 }
 
 .section {
     border-top: solid 1px rgba(0,0,0,0.25);
-    margin: 10px 10px 200px 10px;
+    margin: 10px 10px 50px 10px;
 }
 
 .section-divider {
@@ -339,6 +350,18 @@ a:active, a:hover  {
     color: #fff;
     text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
     background-color: rgba(0,0,0,0.4);
+}
+#intro-link {
+  position: relative;
+  top: 180px;
+  right: 20px;
+  text-align: right;
+}
+#intro-link a, #intro-link a:visited {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  font-size: 20px;
 }
 
 

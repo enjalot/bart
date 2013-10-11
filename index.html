@@ -11,16 +11,16 @@
         <meta name="viewport" content="width=device-width">
 
         <!--opengraph required properties -->
-        <meta property="og:title" content="Harder F5MC | Halftone" />
+        <meta property="og:title" content="BART Strike" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="http://halftone.co/projects/temperatures/img/cover-image.png" />
-        <meta property="og:description" content="This project displays over 100 years of NOAA monthly land temperature data collected from over 7,200 climate monitoring stations, with each month creating unique geometric artwork.e" />
-        <meta property="og:url" content="http://halftone.co/projects/temperatures/" />
+        <meta property="og:description" content="This is a collection of data visualization projects that attempt to clarify the issues around the BART labor disputes." />
+        <meta property="og:url" content="http://enjalot.github.io/bart" />
 
         <!--<link rel="stylesheet" href="css/normalize.min.css">-->
         <link rel="stylesheet" href="site/css/main.css">
         <link rel="stylesheet" href="site/css/bootstrap.min.css">
-        
+        <link rel="stylesheet" href="site/css/font-awesome.min.css">
         <!--<link rel="stylesheet" href="css/annotator.min.css">-->
 
         <link href='http://fonts.googleapis.com/css?family=Inika:400,700' rel='stylesheet' type='text/css'>
@@ -35,160 +35,198 @@
         
 <!-- HTML CONTENT -->
 
+<div id="noise" class="overlay noise">
+</div>
 
 <div id="content">
-
     <div id="intro">
-            <div id="intro-text">
-                Making Sense of the BART Strike
-            </div>
+      <div id="intro-text">
+          Visualizing the BART Strike
+      </div>
+      <div id="intro-link">
+        <a href="https://github.com/enjalot/bart/blob/master/data/README.md">download the data</a>
+      </div>
     </div>
 
 <!--CHAPTER ZERO - intro -->
    <div id="chapter-00">
-        <h1>What is causing the BART strike?</h1>
+        <h1>What is going on with BART?</h1>
         <div id="chapter-00a" class="section">
-            <h2>What is the history of BART/union negotiations?</h2>
-            <p>The BART unions
-                In 2001, a strike was threatened, and BART employees received a 22 percent raise over the four year period from 2001 to 2005. source (http://www.sfgate.com/bayarea/article/BAY-AREA-BART-pay-ranks-high-for-transit-2624636.php) 
-                
-                <br />In 2005, another strike was threatened, and employees won 7% over four years from 2005 to 2009. (need source)
-                
-                </p>
-
-
+            <p>
+            In 2001, a strike was threatened, and BART employees received a <a href="http://www.sfgate.com/bayarea/article/BAY-AREA-BART-pay-ranks-high-for-transit-2624636.php" target=_blank>
+              22 percent raise</a>
+            over the four year period from 2001 to 2005. 
+            <br><br> In 2009, BART employees negotiated a contract that gave <em>no</em> raise for the following four years. 
+              <br>When an agreement wasn't reached July 1st, 
+                2013 the BART unions held a 5 day strike immobilizing many in the Bay Area. 
+              <br>The strike only ended because the Governor instituted a <a href="http://blogs.kqed.org/newsfix/2013/08/04/bart-strike-deadline-update-talks-go-down-to-the-wire-again/" target=_blank>60 day cooling off period.</a>
+            </p>
+            <p>
+            The <a href="http://www.motherjones.com/mojo/2013/07/bay-area-transit-strike-why-it-matters" target=_blank>major points of contention</a> for the Unions are Pay raises, reduced employee contribution to pensions, medical benefits and safety.
+            </p>
         </div>
-        <div id="chapter-00b" class="section">
-            <h2>What are the points of contention?</h2>
+      </div>
 
-
-
-        </div>
-        <div id="chapter-00c" class="section">
-            <h2>Are the demands reasonable?</h2>
-
-
-
-        </div>
-    </div>
-    
-    <div id="chapter-01">       
-        <h1>What are the effects of the strike?</h1>
-        <div id="chapter-01a" class="section">
-            <h2>Budget Impact</h2>
-        
-        </div>
-        <div id="chapter-01b" class="section">
-            <h2>Ridership Impact</h2>
-        
-        </div>
-        <div id="chapter-01c" class="section">
-            <h2>Socioeconomic Impact</h2>
-        
-        </div>
+    <div id="chapter-01" class="section">
+        <h1><a href="https://twitter.com/adailyventure" target="_blank">Hyon</a> asks: Are the demands reasonable?</h1>
+        <p>
+        Concerned that BART employees are the <a href="http://www.mercurynews.com/bart/ci_23742276/bart-workers-paychecks-already-outpace-their-peers" target=_blank>highest compensated</a> government agency employees in the Bay Area, Hyon looks into the financial factors around BART employment including historical raises and inflation rates:
+        <br>
+        <a href="http://slantedwindows.com/bart-is-bending-us-over-backwards/" target="_blank">
+          <img src="http://slantedwindows.com/wp-content/uploads/2013/10/X.gif"><br>
+          BART is Bending Us Over Backwards</a> <br/>
+        Data Sources:
+        <a href="https://github.com/enjalot/bart/blob/master/data/monthlyinflation.csv">inflation</a><br>
+        <a href="https://github.com/enjalot/bart/blob/master/data/README.md">fare raises</a><br>
+        <a href="https://github.com/enjalot/bart/blob/master/data/financials-simple.csv">revenue</a><br>
+        </p>
     </div>
 
-
-    <div id="chapter-02">    
-        <div class="section">
-            <h2>Infographics</h2>
-    
-
-        </div>
+    <div id="chapter-02" class="section">
+      <h1><a href="http://twitter.com/shirleyxywu">Shirley</a> asks what's behind "80k Average Salary"</h1>
+      </div>
+    <div id="chapter-03" class="section">
+      <h1><a href="https://twitter.com/vicapow">Victor</a> asks: How Much Do BART Employees Earn?</h1>
+      <iframe frameborder=none src="http://blog.vctr.me/bart/" width="900px" height="500px"></iframe>
+      <p>
+      This <a href="http://blog.vctr.me/bart">visualization</a> allows you explore each BART employee in terms of their costs of employment, such as base salary, overtime pay, health benefits, 401(k), and pension contributions.
+      </p>
+      <p>
+        Data Sources: <a href="https://github.com/enjalot/bart/blob/master/data/bart-comp-all.csv">salaries</a>
+      </p>
     </div>
+
+    <div id="chapter-04" class="section">
+      <h1><a href="https://twitter.com/bobfet1">Jon</a> Slices the Salary data</h1>
+      <iframe class="imgur-album" width="100%" height="550" frameborder="0" src="http://imgur.com/a/jVpBt/embed"></iframe>
+      <a href="http://imgur.com/a/jVpBt" target=_blank>Several ways of breaking down salaries for management and non-management BART employees</a><br>
+      Data Sources: <a href="https://github.com/enjalot/bart/blob/master/data/bart-comp-all.csv">salaries</a>
+    </div>
+
+
+    <div id="chapter-05" class="section">
+      <h1><a href="https://twitter.com/lewislehe">Lewis</a> takes a look at Bart Ridership</h1>
+      <a href="http://vudlab.com/bart/" target=_blank>
+        <img src="site/img/projects/ridership.png" width=900px><br>
+        Click thru to an interactive look at who rides where.<br>
+      </a>
+      Data Source: <a href="https://github.com/enjalot/bart/blob/master/data/ridership/2013/Ridership_June2013.xlsx">ridership</a>
+    </div>
+    <div id="chapter-06">
+      <h1><a href="https://twitter.com/enjalot">Ian</a> takes a look at Highway Traffic during the July strike</h1>
+      <a href="" target=_blank>
+      </a>
+      With help from Lewis Lehe and Jean
+    </div>
+
+    <div id="chapter-07">
+      <div id="chapter-07a" class="section">
+         <h1>Who made all this?</h1>
+         <iframe width="640" height="480" src="//www.youtube.com/embed/_D-7Wbrt0Ws" frameborder="0" allowfullscreen></iframe>
+        <p>
+         
+        We are the <a href="http://www.meetup.com/Bay-Area-d3-User-Group/" target=_blank>Bay Area d3 User Group</a>.
+        <a href="http://d3js.org">d3.js</a> is a powerful JavaScript library for building data visualizations and we get together to talk about it and <a href="http://www.meetup.com/Bay-Area-d3-User-Group/about/">build things with it</a>.<br><br>
+        We co-hosted 2 events 
+        with the <a href="http://vudlab.co">VUDLab @ UC Berkeley</a> to work on this project. <br>
+        <a href="http://www.meetup.com/Bay-Area-d3-User-Group/events/137541752/" target="_blank">10/02/2013 - hack the BART strike</a><br>
+        <a href="http://www.meetup.com/Bay-Area-d3-User-Group/events/143668252/" target="_blank">10/07/2013 - hack the BART strike round 2</a><br>
+
+        The VUDLab is all about visualizing urban data and brought a lot of <a href="http://its.berkeley.edu/">transportation expertise</a>.<br>
+              <br>
+              Special thanks to <a href="http://halftone.co">Halftone</a> for helping design and build this website.<br>
+              Special thanks to our videographer <a href="http://precipitaterecords.wordpress.com/">Matt</a> who does a great job 
+              <a href="http://www.youtube.com/playlist?list=PLI_sHchSmdCCRq86X778ZpIlbOPCUF0MF">filming our meetups</a>.
+        <div id="chapter-07b" class="section">
+            <h2>Data Sources</h2>
+            <p>
+              A lot of work went into collecting the <a href="https://github.com/enjalot/bart/tree/master/data">data</a> used in the above projects. 
+              <br>
+            The project started when <a href="https://twitter.com/enjalot">Ian</a> asked 
+            <a href="https://twitter.com/mrejfox">EJ</a>, 
+            <a href="https://twitter.com/ptvan">Paul</a> and 
+            <a href="https://twitter.com/enoex">Erik</a>
+            to help him find data about the BART after the strike in July. 
+            <br>
+            After building up a <a href="https://github.com/enjalot/bart">repository</a> and <a href="https://github.com/enjalot/bart/blob/master/README.md">several visualization prototypes</a> we decided to get the d3 meetup involved.<br>
+            At the hackathons lots <a href="https://github.com/enjalot/bart/pulls?direction=desc&page=1&sort=created&state=closed">more data</a>
+            came in!
+            <ul>
+              <li><a href="https://twitter.com/antonycourtney">Antony</a> matched up <a href="https://github.com/enjalot/bart/blob/master/data/bart-comp-all.csv">salary data</a> to union representation and job families</li>
+              <li><a href="https://github.com/jayaddison">James</a> and <a href="https://github.com/beangoben">Ben</a> got 
+              <a href="https://github.com/enjalot/bart/tree/master/data/costofliving">cost of living</a> data together.</li>
+              <li><a href="https://github.com/athst">Jon</a> combined the monthly ridership files into <a href="https://github.com/enjalot/bart/blob/master/data/ridership/ridership_combined.csv">one master file</a></li>
+              <li><a href="https://github.com/lewis500">Lewis</a> collected PEMS <a href="https://github.com/enjalot/bart/tree/master/data/traffic%20data">traffic data</a>
+              as well as currating <a href="https://github.com/enjalot/bart/blob/master/data/bart_stations.json">BART station</a> 
+              and <a href="https://github.com/enjalot/bart/blob/master/data/bayareaTOPO-simple.json">map data</a></li>
+              <li>We also got a ton of hard to find links to public/open data from a furloughed government employee who needs to remain anonymous but deserves to be thanked!</li>
+            </ul>
+            </p>
+        </div>
+      </div>
+    </div>
+<!-- end content div -->
+  </div>
+
+  <div id="vignette" class="overlay vignette">
+  </div>
+
   
 
-    <div id="chapter-03">        
-        <div class="section">
-            <h2>TBD</h2>
-    
+  <div id="sidebar" class="sidebar" data-spy="affix" data-offset-top="100">
+      <ul class="sidenav nav">
+          <li>
+              <a href="#content">Visualizing the BART Strike</a>
+          </li>
+          <li>
+              <a href="#chapter-00">What is going on with BART?</a>
+          </li>
+          <li>
+              <a href="#chapter-01">Are the demands reasonable?</a>
+          </li>
+          <li>
+              <a href="#chapter-02">"80k Average Salary?"</a>
+          </li>
+          <li>
+              <a href="#chapter-03">How much do BART employees earn?</a>
+          </li>
+          <li>
+              <a href="#chapter-04">Slicing the salary data</a>
+          </li>
+          <li>
+              <a href="#chapter-05">BART Ridership</a>
+          </li>
+          <li>
+              <a href="#chapter-06">Traffic</a>
+          </li>
+          <li>
+              <a href="#chapter-07">Credits</a>
+              <ul class="nav">
+                  <li><a href="#chapter-07a">Who we are</a></li>
+                  <li><a href="#chapter-07b">Data sources</a></li>
+              </ul>
+
+          </li>
+      </ul>
+  </div>
+
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
 
-        </div>
-    </div>
-
-
-    <div id="chapter-04">        
-        <div class="section">
-             <h2>Credits</h2>
-             
-             
-        </div>
-    </div>       
-
-<!-- end content div -->
-
-</div>
-
-            <div id="vignette" class="overlay vignette">
-            </div>
-
-            <div id="noise" class="overlay noise">
-            </div>
-
-            <div id="sidebar" class="sidebar" data-spy="affix" data-offset-top="100">
-                <ul class="sidenav nav">
-                    <li>
-                        <a href="#content">What is this?</a>
-                    </li>
-                    <li>
-                        <a href="#chapter-00">What is causing the threat of strike?</a>
-                        <ul class="nav">
-                            <li><a href="#chapter-00a">What is the history of BART/union negotiations?</a></li>
-                            <li><a href="#chapter-00b">What are the points of contention?</a></li>
-                            <li><a href="#chapter-00c">Are the demands reasonable?</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#chapter-01">What are the effects of the strike?</a>
-                        <ul class="nav">
-                            <li><a href="#chapter-01a">Budget Impact</a></li>
-                            <li><a href="#chapter-01b">Ridership impact</a></li>
-                            <li><a href="#chapter-01c">Socioeconomic impact</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#chapter-02">Next Steps</a>
-                    </li>
-                    <li>
-                        <a href="#chapter-03">Data Sources</a>
-                    </li>
-                    <li>
-                        <a href="#chapter-04">Credits</a>
-                    </li>
-                </ul>
-            </div>
-
-
-
-                    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-                    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
-
-                    <script src="site/js/vendor/bootstrap.min.js"></script>
-                    <script src="site/js/vendor/prefixfree.min.js"></script>
-                    <script src="site/js/main.js"></script>
-                    <!--<script src="js/vendor/d3.v3.min.js"></script>-->
-                    <!--<script src="js/fss-lightshader.js"></script>-->
-
-
-
-
-                    <!--<script src="js/vendor/jquery.scrolling-parallax.js"></script>-->
-
-                    <!-- <script type="text/javascript">
-
-                      var _gaq = _gaq || [];
-                      _gaq.push(['_setAccount', 'UA-38868805-1']);
-                      _gaq.push(['_setDomainName', 'halftone.co']);
-                      _gaq.push(['_trackPageview']);
-
-                      (function() {
-                        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-                      })();
-
-                    </script> -->
-                </body>
-            </html>
+      <script src="site/js/vendor/bootstrap.min.js"></script>
+      <script src="site/js/vendor/prefixfree.min.js"></script>
+      <script src="site/js/main.js"></script>
+      <script>
+        $("a").attr("target", "_blank");
+      </script>
+      <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-39326674-6', 'enjalot.github.io');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
