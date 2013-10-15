@@ -617,3 +617,7 @@ iframe {
         page-break-after: avoid;
     }
 }
+
+.fb {
+  margin-left: 20px;
+}
