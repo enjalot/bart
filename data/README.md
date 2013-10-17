@@ -24,8 +24,7 @@ and are composed of several sections:
 ### BART Data  
 * Employee Salaries
 	+ https://github.com/enjalot/bart/blob/master/data/bart-comp-all.csv
-	+ source: John Osborn https://docs.google.com/spreadsheet/ccc?key=0AiFtsy5d3JwNdE9tOWRtbmh5WTJSYnpaNktwUWJjYnc#gid=3  
-	+ scraped from http://www.mercurynews.com/salaries/bay-area
+	+ source http://www.mercurynews.com/salaries/bay-area
 * Job families and union memberships: 
  	+ https://github.com/enjalot/bart/blob/master/data/job_families.csv
 	+ source: http://bart.gov/about/jobs/descriptions/index.aspx
