@@ -125,6 +125,11 @@ textarea {
   padding-left: 20px;
 }
 
+.thumb img {
+  width: 200px;
+  margin: 5px;
+}
+
 /* Show and affix the side nav when space allows it */
 @media screen and (min-width: 480px) {
   .sidebar .nav > .active > ul {
@@ -153,22 +158,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   #container {
-       position: fixed;
-       height: 100%;
-       width: 100%;
-       left: 0;
-       top: 0;
-   }
-   
-   #output {
-       position: absolute;
-       height: 100%;
-       width: 100%;
-       left: 0;
-       top: 0;
-   }
-   
    .overlay {
        pointer-events: none;
        position: fixed;
@@ -240,11 +229,25 @@ body {
     background-attachment:fixed;
 }
 
+#header {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255,255,255,0.35);
+    padding: 3px;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+}
+
+#header > * {
+    display: inline-block;
+}
+
+
 h1, h2, h3 {
     font-family: 'Crete Round', serif !important;
     font-weight: 700;
     color: #444;
-    text-shadow: 0px 2px 2px rgba(0,0,0,0.15);
 }
 
 h2 {
@@ -283,14 +286,36 @@ img {
 }
 
 #content {
-    position: absolute;
-    left: 220px;
     padding: 10px;
     font-family: 'Crete Round', serif;
     line-height: 150%;
 }
 
 
+.thumb {
+    margin: 10px;
+    background-color: #fff;
+    display: inline-block;
+    z-index: 100;
+    width: 210px;
+    border-radius: 2px;
+}
+
+div.thumb > img {
+    
+}
+
+.thumb-title {
+    position: absolute;
+    max-width: 210px;
+    padding: 3px 5px 3px 5px;
+    z-index: 500;
+    background-color: #fff;
+}
+
+.info-box {
+    background-color:;
+}
 
 iframe {
   overflow: hidden;
@@ -320,32 +345,22 @@ iframe {
 }
 
 
-#big-title {
-    position: absolute;
-    font-size: 84px;
-    line-height: 84px;
-    text-align: center;
-    width: 100%;
-    top: 100px;
-    color: #fff;
-    text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
-}
 
 #intro {
-    height: 340px;
-    background-image: url('../img/Walnut_Creek_BART.jpg');
+    height: 180px;
+    background-image: url('../img/Walnut_Creek_BART_830x340.jpg');
     background-repeat: no-repeat;
     background-size: 850px;
     background-position: center;
     border-radius: 3px;
+    margin-top: 30px;
 }
 
 #intro-text {
     position: relative;
     margin: 0 auto 0 auto;
-    top: 125px;
+    top: 32px;
     padding: 10px;
-    font-size: 48px;
     font-style: italic;
     text-align: center;
     line-height: 50px;
@@ -354,19 +369,24 @@ iframe {
     text-shadow: 0px 2px 2px rgba(0,0,0,0.2);
     background-color: rgba(0,0,0,0.4);
 }
+
 #intro-link {
-  position: relative;
-  top: 180px;
-  right: 20px;
+  float: right;
   text-align: right;
-}
-#intro-link a, #intro-link a:visited {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 10px;
-  font-size: 20px;
+  margin-right: 5px;
 }
 
+#intro-link a, #intro-link a:visited {
+  color: #444;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#intro-link a:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
 
 
 
@@ -405,81 +425,81 @@ iframe {
 
 /* Landscape phones and down */
 @media (max-width: 480px) { 
-
-    #title {
-        font-size: 20px;
-    }
     
-    #content, #big-title {
+    #content {
         width: 100%;
     }
     
     #intro-text {
         width: 250px;
+        font-size: 20px;
+    }
+    
+    #sidebar {
+        display: none;
     }
 } 
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 801px) {
 
-    #title {
-        font-size: 24px;
-    }
-    
-    #content, #big-title {
+    #content {
         width: 100%;
     }
     
     #intro-text {
         width: 250px;
+        font-size: 24px;
+    }
+    
+    #sidebar {
+        display: none;
     }
 }
 
 /* Landscape phone to portrait tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 802px) and (max-width: 1023px) {
 
-    #title {
-        font-size: 28px;
-    }
-    
-    #content, #big-title {
-        width: 700px;
+    #content {
+        position: absolute;
+        left: 220px;
+        width: 650px;
     }
     
     #intro-text {
-        width: 350px;
+        width: 380px;
+        font-size: 36px;
     }
 }
 
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 1024px) and (max-width: 1399px) {
-
-    #title {
-        font-size: 36px;
-    }
  
-    #content, #big-title {
+    #content {
+        position: absolute;
+        left: 220px;
         width: 850px;
     }
     
     #intro-text {
         width: 500px;
+        font-size: 48px;
     }
 }
 
 /* Large desktop */
 @media (min-width: 1400px) {
 
-    #title {
-        font-size: 36px;
-    }
     
-    #content, #big-title {
+    #content {
+        position: absolute;
+        left: 220px;
         width: 900px;
     }
     
     #intro-text {
         width: 500px;
+        font-size: 48px;
     }
 }
 
