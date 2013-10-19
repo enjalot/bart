@@ -179,8 +179,8 @@ textarea {
    }
 
    .vignette {
-       background-image: -webkit-radial-gradient(50% 50%, ellipse, rgba(255,255,255,0) 60%, rgba(120,110,95,0.65) 100%);
-       background-image: radial-gradient(50% 50%, ellipse, rgba(255,255,255,0) 60%, rgba(120,110,95,0.65) 100%);
+       background-image: -webkit-radial-gradient(50% 50%, ellipse, rgba(255,255,255,0) 65%, rgba(120,110,95,0.45) 100%);
+       background-image: radial-gradient(50% 50%, ellipse, rgba(255,255,255,0) 65%, rgba(120,110,95,0.45) 100%);
    }
 
    .noise {
