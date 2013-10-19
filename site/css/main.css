@@ -125,6 +125,11 @@ textarea {
   padding-left: 20px;
 }
 
+.thumb img {
+  width: 200px;
+  margin: 5px;
+}
+
 /* Show and affix the side nav when space allows it */
 @media screen and (min-width: 480px) {
   .sidebar .nav > .active > ul {
