@@ -37,6 +37,10 @@
 
 <div id="noise" class="overlay noise">
 </div>
+<div id="vignette" class="overlay vignette">
+</div>
+
+
 
 <div id="content">
     <div id="intro">
@@ -48,6 +52,54 @@
       </div>
     </div>
 
+    <div id="chapter-001">
+        <h1>Project Gallery</h1>
+        <div id="chapter-00a" class="section">
+
+          <div class="thumb">
+              <a href="#chapter-03">
+                  <div class="thumb-title">Individual BART Employee Pay &amp; Benefits</div>
+                  <img src="site/img/projects/thumb_victor.png">
+                </a>
+          </div>
+          <div class="thumb">
+              <a href="#chapter-02">
+              <div class="thumb-title">Cost of Living Analysis</div>    
+              <img src="site/img/projects/thumb_shirley.png"></a>
+          </div>
+          <div class="thumb">
+              <a href="#chapter-01">
+              <div class="thumb-title">Is it Fair to Strike?</div>
+              <img src="site/img/projects/thumb_hyon.png"></a>
+          </div>
+          <div class="thumb">
+              <a href="#chapter-035">
+                  <div class="thumb-title">Aggregate BART Employment Costs</div>
+                  <img src="site/img/projects/thumb_antony.png"></a>
+          </div>
+          <div class="thumb">
+              <a href="#chapter-04">
+                  <div class="thumb-title">Exploring Salary Data in R</div>
+                  <img src="site/img/projects/thumb_jon.png"></a>
+              </div>
+          <div class="thumb">
+              <a href="#chapter-05">
+                  <div class="thumb-title">BART Ridership to and from, by Station</div>
+                  <img src="site/img/projects/thumb_lewis.png"></a>
+              </div>
+          <div class="thumb">
+              <a href="#chapter-06">
+                  <div class="thumb-title">Bridge Traffic During the First Strike</div>
+                  <img src="site/img/projects/thumb_ian.png"></a>
+              </div>
+          <div class="thumb"><a href="#chapter-07">
+              <div class="thumb-title">Behind the Scenes of This Hackathon</div>
+              <img src="site/img/projects/thumb_video.png"></a>
+              </div>
+              
+
+        </div>
+      </div>
 <!--CHAPTER ZERO - intro -->
    <div id="chapter-00">
         <h1>What is going on with BART?</h1>
@@ -56,36 +108,22 @@
             In 2001, a strike was threatened, and BART employees received a <a href="http://www.sfgate.com/bayarea/article/BAY-AREA-BART-pay-ranks-high-for-transit-2624636.php" target=_blank>
               22 percent raise</a>
             over the four year period from 2001 to 2005. 
-            <br><br> In 2009, BART employees negotiated a contract that gave <em>no</em> raise for the following four years. 
-              <br>When an agreement wasn't reached July 1st, 
-                2013 the BART unions held a 5 day strike immobilizing many in the Bay Area. 
-              <br>The strike only ended because the Governor instituted a <a href="http://blogs.kqed.org/newsfix/2013/08/04/bart-strike-deadline-update-talks-go-down-to-the-wire-again/" target=_blank>60 day cooling off period.</a>
+            </p>
+            <p> In 2009, BART employees negotiated a contract that gave <em>no</em> raise for the following four years. When an agreement wasn't reached by July 1st, 2013, the BART unions held a 5 day strike immobilizing many in the Bay Area. The strike only ended because the Governor instituted a <a href="http://blogs.kqed.org/newsfix/2013/08/04/bart-strike-deadline-update-talks-go-down-to-the-wire-again/" target=_blank>60 day cooling off period.</a>
             </p>
             <p>
-            The <a href="http://www.motherjones.com/mojo/2013/07/bay-area-transit-strike-why-it-matters" target=_blank>major points of contention</a> for the unions are pay raises, reduced employee contribution to pensions, medical benefits and safety.<br>
+            The <a href="http://www.motherjones.com/mojo/2013/07/bay-area-transit-strike-why-it-matters" target=_blank>major points of contention</a> for the unions are pay raises, reduced employee contribution to pensions, medical benefits and safety.
+            <p>
+            </p>
             We have collected <a href="https://github.com/enjalot/bart#news-articles">many news articles</a> for more context.
-            <br><br>
-
+            </p>
+            <p>
             The <a href="http://www.mercurynews.com/salaries/bay-area">salary data</a> is a herculean Open Data effort from <a href="http://mercurynews.com">Mercury News</a> and the <a href="http://bayareanewsgroup.com">Bay Area News Group</a>.
             </p>
         </div>
     </div>
 
-    <div id="chapter-001">
-        <h1>thumbnails</h1>
-        <div id="chapter-00a" class="section">
 
-          <a class="thumb" href="#chapter-03"><img src="site/img/projects/thumb_victor.png"></a>
-          <a class="thumb" href="#chapter-02"><img src="site/img/projects/thumb_shirley.png"></a>
-          <a class="thumb" href="#chapter-01"><img src="site/img/projects/thumb_hyon.png"></a>
-          <a class="thumb" href="#chapter-035"><img src="site/img/projects/thumb_antony.png"></a>
-          <a class="thumb" href="#chapter-04"><img src="site/img/projects/thumb_jon.png"></a>
-          <a class="thumb" href="#chapter-05"><img src="site/img/projects/thumb_lewis.png"></a>
-          <a class="thumb" href="#chapter-06"><img src="site/img/projects/thumb_ian.png"></a>
-          <a class="thumb" href="#chapter-07"><img src="site/img/projects/thumb_video.png"></a>
-
-        </div>
-      </div>
 
     <div id="chapter-03" class="section">
       <h1><a href="https://twitter.com/vicapow">Victor</a> asks: How Much Do BART Employees Earn?</h1>
@@ -101,7 +139,7 @@
 
     <div id="chapter-02" class="section">
       <h1><a href="http://twitter.com/shirleyxywu">Shirley</a> puts things in perspective with cost of living</h1>
-      <iframe frameborder=none src="http://sxywu.github.io/80k/" width=1000px height=950px></iframe>
+      <iframe frameborder="none" overflow="hidden" scrolling="no" src="http://sxywu.github.io/80k/" width="1000px" height="950px" ></iframe>
       <a href="http://sxywu.github.io/80k/">Full Page</a><br>
       Data Sources: <a href="https://github.com/enjalot/bart/tree/gh-pages/data/costofliving">cost of living</a>
       <a href="http://www.mercurynews.com/salaries/bay-area">salaries</a>
@@ -232,11 +270,11 @@
 <!-- end content div -->
   </div>
 
-  <div id="vignette" class="overlay vignette">
-  </div>
+
 
   
 
+  
   <div id="sidebar" class="sidebar" data-spy="affix" data-offset-top="100">
       <ul class="sidenav nav">
           <li>
@@ -281,33 +319,26 @@
 
           </li>
       </ul>
-      <!-- twitter -->
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://enjalot.github.io/bart/" data-text="visualizing the #BARTstrike with #d3js" data-via="enjalot">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      <!-- facebook -->
-      <br>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=670492012969518";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  </div>
+  
+  <div id="header">
+  <!-- twitter -->
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://enjalot.github.io/bart/" data-text="visualizing the #BARTstrike with #d3js" data-via="enjalot">Tweet</a>
 
-      <div class="fb fb-like" data-href="http://enjalot.github.io/bart" data-width="70px" data-height="20px" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false"></div>
+    <!-- facebook -->
 
-      <!-- github -->
-      <br>
-      <iframe class="fb" src="http://ghbtns.com/github-btn.html?user=enjalot&repo=bart&type=watch&count=true"
-        allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+    <div id="fb-root"></div>
+
+        <div class="fb fb-like" data-href="http://enjalot.github.io/bart" data-width="70px" data-height="20px" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false"></div>
+
+    <!-- github -->
+    <iframe class="fb" src="http://ghbtns.com/github-btn.html?user=enjalot&repo=bart&type=watch&count=true"
+      allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+    </div>
+      
 
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
-
       <script src="site/js/vendor/bootstrap.min.js"></script>
-      <script src="site/js/vendor/prefixfree.min.js"></script>
       <script src="site/js/main.js"></script>
       <script>
         $("a").attr("target", "_blank");
