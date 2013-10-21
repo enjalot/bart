@@ -125,10 +125,7 @@ textarea {
   padding-left: 20px;
 }
 
-.thumb img {
-  width: 200px;
-  margin: 5px;
-}
+
 
 /* Show and affix the side nav when space allows it */
 @media screen and (min-width: 480px) {
@@ -266,6 +263,37 @@ img {
     max-width: 100%;
 }
 
+iframe {
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+iframe.fb {
+    width: 110px;
+    height: 20px;
+}
+
+#iframe-victor {
+    height: 600px;
+}
+
+#iframe-shirley {
+    height: 900px;
+}
+
+#iframe-anthony {
+    height: 600px;
+}
+
+#iframe-jon {
+    height: 810px;
+}
+
+#iframe-enjalot {
+    height: 1100px;
+}
+
 
 #sidebar {
     width: 210px;
@@ -293,21 +321,24 @@ img {
 
 
 .thumb {
-    margin: 10px;
+    margin: 5px;
     background-color: #fff;
     display: inline-block;
     z-index: 100;
-    width: 210px;
-    border-radius: 2px;
+    width: 190px;
+    height: 160px;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
-div.thumb > img {
-    
+.thumb img {
+  width: 180px;
+  margin: 5px;
 }
 
 .thumb-title {
     position: absolute;
-    max-width: 210px;
+    max-width: 190px;
     padding: 3px 5px 3px 5px;
     z-index: 500;
     background-color: #fff;
@@ -317,9 +348,6 @@ div.thumb > img {
     background-color:;
 }
 
-iframe {
-  overflow: hidden;
-}
 #content p {
     margin-bottom: 26px;
 }
