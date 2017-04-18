@@ -66,7 +66,7 @@ All of the data and sources can be found here: https://github.com/enjalot/bart/t
 * July 30 article on strike http://www.timesheraldonline.com/news/ci_23773852/unions-may-issue-72-hour-notice-strike-if
 * Article comparing transit salaries in other cities with BART http://www.mercurynews.com/bart/ci_23742276/bart-workers-paychecks-already-outpace-their-peers
 
-#SFGate Stories
+# SFGate Stories
 2013
 
 * BART talks likely to go to 11th hour - or beyond http://www.sfgate.com/bayarea/article/BART-talks-likely-to-go-to-11th-hour-or-beyond-4877188.php
